@@ -1,0 +1,38 @@
+body {margin: 0;}
+
+.container {display: flex;
+height: 100vh;}
+
+.barra-lateral {width: 200px;
+background-color: rgb(46, 46, 201);}
+
+.area-principal {flex: 1;
+display: flex;
+flex-direction: column;
+height: 100vh;}
+
+.cabecalho {height: 60px;
+background-color: rgb(43, 43, 255);}
+
+.conteudo {flex: 1;
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 10px;}
+
+.blocos1 {display: flex;
+gap: 10px;}
+
+.bloco {flex: 1;
+height: 80px;
+background-color: rgb(21, 21, 126);}
+
+.blocos2 {display: flex;
+gap: 10px;
+flex: 1;}
+
+.bloco-grande {flex: 2;
+    background-color: rgb(70, 115, 238);}
+
+.bloco-pequeno {flex: 1;
+    background-color: rgb(57, 45, 226);}

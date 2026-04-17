@@ -1,0 +1,33 @@
+body {margin: 0;
+font-family: Arial;}
+
+.topo {height: 200px;
+background-color: rgb(132, 0, 255);
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.blocos {display: flex;
+flex-wrap: wrap;
+gap: 10px;
+padding: 10px;}
+
+.bloco {flex: 1;
+min-height: 200px;
+height: 100px;
+background-color: rgb(148, 52, 238);}
+
+.barra {background-color: rgb(138, 34, 236);
+color: white;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.rodape {background-color: rgb(86, 23, 145);
+color: white;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;}

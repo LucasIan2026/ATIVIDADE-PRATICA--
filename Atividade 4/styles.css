@@ -1,0 +1,36 @@
+body {margin: 0;}
+
+.container {display: flex;
+flex-direction: column;
+height: 100vh;}
+
+.cabecalho {height: 60px;
+background-color: rgb(49, 223, 49);}
+
+.abas {display: flex;
+gap: 5px;
+background-color: green;}
+
+.aba {flex: 1;
+height: 50px;
+background-color: green;}
+
+.conteudo {flex: 1;
+display: flex;
+flex-wrap: wrap;
+align-content: flex-start;
+gap: 10px;
+padding: 10px;}
+
+.bloco {flex: 1;
+min-width: 45%;
+height: 100px;
+background-color: green;}
+
+.barra-meio {position: absolute;
+top: 50%;
+left: 0;
+width: 100%;
+height: 80px;
+background-color: green;
+transform: translateY(-50%);}
